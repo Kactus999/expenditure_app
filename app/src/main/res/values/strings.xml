@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Exspend</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="greeting">Hi</string>
+    <string name="amount">Amount:</string>
+    <string name="enter_amount_of_money">Enter amount of money</string>
+    <string-array name="type_of_deposit">
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Allowance</item>
+        <item>Project</item>
+    </string-array>
+
+    <string-array name="category_of_withdraw">
+        <item>Entertainment</item>
+        <item>Fine</item>
+        <item>Hospital fee</item>
+        <item>Clothes</item>
+        <item>Education</item>
+        <item>Utility bills</item>
+        <item>Food</item>
+    </string-array>
+</resources>

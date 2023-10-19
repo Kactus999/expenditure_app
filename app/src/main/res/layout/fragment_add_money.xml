@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    tools:context=".AddMoneyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tvGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/greeting"
+            android:textSize="24sp"
+            style="@style/TEXT"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTotalMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100$"
+            android:textSize="26sp"
+            style="@style/TEXT"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnDeposit"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                style="@style/BUTTON"
+                android:text="Deposit" />
+
+            <Button
+                android:id="@+id/btnWithdraw"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                style="@style/BUTTON"
+                android:text="Withdraw" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Deposit:"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            />
+
+        <ListView
+            android:id="@+id/lvDeposit"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:dividerHeight="10.0sp"
+            android:divider="@android:color/transparent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:text="Withdrawal:"
+            android:textSize="24sp"
+            />
+
+        <ListView
+            android:id="@+id/lvWithdrawal"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="5dp"
+            android:dividerHeight="10.0sp"
+            android:divider="@android:color/transparent"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

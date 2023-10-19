@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="circle">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="rounded_corner">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="BaseTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Base style attributes -->
+        <!-- Add more base style customizations as needed -->
+    </style>
+
+</resources>

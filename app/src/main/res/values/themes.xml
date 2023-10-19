@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ExpenditureApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/luxury_black</item>
+    </style>
+
+    <style name="Theme.ExpenditureApp" parent="Base.Theme.ExpenditureApp" />
+    <style name="SCREEN" >
+        <item name="android:background">#EEE3CB</item>
+    </style>
+
+    <style name="BUTTON">
+        <item name="android:backgroundTint">#060D0D</item>
+        <item name="android:textColor">#D6BD68</item>
+    </style>
+
+    <style name="TEXT">
+        <item name="android:textColor">#CBB279</item>
+    </style>
+
+    <style name="DROPDOWN">
+        <item name="android:background">#CBB279</item>
+    </style>
+
+    <style name="INPUTLAYOUTSTYLE" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Base style attributes -->
+        <!-- Add more base style customizations as needed -->
+        <item name="boxStrokeColor">#D6BD68</item>
+        <item name="hintTextColor">#060D0D</item>
+    </style>
+
+    <style name="TIPLAYOUTDROPDROWN" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="boxStrokeColor">#D6BD68</item>
+        <item name="hintTextColor">#060D0D</item>
+        <item name="colorControlActivated">#D6BD68</item>
+    </style>
+</resources>
